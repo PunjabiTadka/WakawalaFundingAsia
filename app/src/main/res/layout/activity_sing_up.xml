@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.actvities.SingUpActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorDarkBlue">
+
+        <include
+            android:id="@+id/included_toolbar"
+            layout="@layout/toolbar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:paddingStart="@dimen/_32sdp"
+            android:paddingEnd="@dimen/_32sdp">
+
+            <ImageView
+                android:id="@+id/img_logo"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_120sdp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/img_wakawala_with_text" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/ed_username"
+                style="@style/EditTextInLogin"
+                android:layout_marginTop="@dimen/_28sdp"
+                android:drawableStart="@drawable/ic_user"
+                android:hint="@string/username"
+                android:inputType="textPersonName" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/ed_email"
+                style="@style/EditTextInLogin"
+                android:drawableStart="@drawable/ic_mail_icon"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/ed_pwd"
+                style="@style/EditTextInLogin"
+                android:drawableStart="@drawable/ic_lock_icon"
+                android:hint="@string/password"
+                android:inputType="textPassword" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_24sdp"
+                android:fontFamily="@font/roboto_medium"
+                android:gravity="center"
+                android:text="@string/select_your_account_type"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/textsize_16sp" />
+
+            <RadioGroup
+                android:id="@+id/radio_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radio_individual"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="@dimen/_5sdp"
+                    android:paddingEnd="0dp"
+                    android:text="@string/individual"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_16sp" />
+
+                <RadioButton
+                    android:id="@+id/radio_organization"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="@dimen/_5sdp"
+                    android:paddingEnd="0dp"
+                    android:text="@string/s_organization"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_16sp" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btn_signup"
+                style="@style/LoginOptionBtn"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="@dimen/_24sdp"
+                android:layout_marginEnd="0dp"
+                android:background="@drawable/bg_green"
+                android:text="@string/sign_up" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_agree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:fontFamily="@font/roboto_medium"
+                android:gravity="center"
+                android:text="@string/agree_terms"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/textsize_14sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</layout>

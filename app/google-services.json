@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "596730300026",
+    "firebase_url": "https://medomo-a699e.firebaseio.com",
+    "project_id": "medomo-a699e",
+    "storage_bucket": "medomo-a699e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596730300026:android:4eeb434c52262793",
+        "android_client_info": {
+          "package_name": "com.wakawala"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596730300026-gmt41st8v358aor7uqr6p0n0tjs17sag.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wakawala",
+            "certificate_hash": "df5631e971d314478c0759c5d9797d16cc017537"
+          }
+        },
+        {
+          "client_id": "596730300026-a4f9ruu8m430nmg37lt9iu9n18260ild.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPSKBUGaYCO5Q-EEWiZxlJ2En2Lz11wx8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596730300026-a4f9ruu8m430nmg37lt9iu9n18260ild.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

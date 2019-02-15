@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#21354D</color>
+    <color name="colorPrimaryDark">#21354D</color>
+    <color name="colorAccent">#00C997</color>
+
+    <color name="colorDarkBlue">#DC21354D</color>
+    <!--<color name="colorDarkBlue">#9e054374</color>-->
+    <color name="colorFBLogin">#576EA5</color>
+    <color name="lighter_grey">#DEDEDE</color>
+    <color name="light_grey">#CDCDCD</color>
+    <color name="dark_grey">#898989</color>
+    <color name="black">#000000</color>
+    <color name="black_transparent">#AA000000</color>
+    <color name="transparent">#FFFFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="sky_blue">#00BFFF</color>
+</resources>
